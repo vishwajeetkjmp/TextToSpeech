@@ -10,9 +10,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.SeekBar;
 import android.widget.Toast;
-
 import java.util.Locale;
-
 public class MainActivity extends AppCompatActivity {
 
     private TextToSpeech mTTS;
