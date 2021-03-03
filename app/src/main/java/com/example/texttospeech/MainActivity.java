@@ -10,9 +10,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.SeekBar;
 import android.widget.Toast;
-
 import java.util.Locale;
-
 public class MainActivity extends AppCompatActivity {
 
     private TextToSpeech mTTS;
@@ -25,9 +23,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
         mButtonSpeek = findViewById(R.id.button_speak);
-
         mTTS = new TextToSpeech(this, new TextToSpeech.OnInitListener() {
             @Override
             public void onInit(int status) {
